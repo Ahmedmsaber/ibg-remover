@@ -1,16 +1,15 @@
 
 
 
-# --------------------------------------------------------------------------------
+# ---------------import libraries--------------------------
 import os
 from PIL import Image
 from rembg import remove
 from telegram import Update , Bot
 from telegram.ext import ApplicationBuilder , CommandHandler , ContextTypes,filters,MessageHandler
-# Set your OpenAI API key here
 
 # Set your Telegram bot token here
-telegram_bot_token = '6381663194:AAHF--htReyUlE8RmwEoj8N-yAewRe2LzKo'
+telegram_bot_token = 'Telegram_token_here'
 channel_id ="iGunter"
 
 
